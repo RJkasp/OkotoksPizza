@@ -1,0 +1,24 @@
+header>center>h1 {
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav a {
+    font-size: 50px;
+    color: orange;
+    }
+h2+p {
+    color: purple;
+}
+a:link {
+    border: 3px solid black;
+}
+a:visited {
+    border: 3px dotted purple;
+}
+/* for active to work it needs to come after hover */
+a:hover {
+    color: royalblue;
+}
+a:active {
+   color:  green ;
+}
