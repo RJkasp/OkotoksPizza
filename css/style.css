@@ -1,10 +1,182 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 20vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 100px;
+    text-align: center;
+    /* border: 2px solid black; */
+    display: grid;
+    background: orange;
+}   
+
+ .container div {
+     padding: 10px;
+     /* border: 2px solid black; */
+     align-self: center;
+    
+ }
+    
+header {
+    /* border: 2px solid black; */
+    /* padding: 5px; */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    }
+    h1 {
+        font-size: 100px;
+        font-family: cursive;
+    }
+ 
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    font-family: monospace;
+    }
+    a:link {
+        border: 1px solid black;
+    }
+    a:visited {
+        border: 2px solid red;
+    }
+    a:hover {
+        color: crimson;
+    }
+a:active {
+    color: black;
+}
+
+article{
+   width: 100vw;
+   height: 45vh;
+   padding: 1px;
+   /* clear: right; */
+   background: #f2f2f2;
+   text-align: center;
+
+}
+
+footer {
+    /* float: left; */
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    padding: 1%;
+    background: #f2f2f2;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 75px 1fr 100px;
+    gap: 0;
+    padding: 10px;
+    box-sizing: border-box ;
+
+    /* font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    font-family: 20px;
+    display: grid;
+    grid-template: 150px 1fr 1fr 100px/ repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;*/
+/* }
+.container div {
+    padding: 10px;
+    
+  
+}
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: orange;
+}
+.dropdowns {
+   grid-column-start: 1;
+   grid-column-end: 4;
+   background: orange;
+}
+a {
+    padding: 10px;
+}
+.dropdowns a {
+    margin-top: 10%;
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 header>center>h1 {
     font-size: 75px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: orange;
 }
 nav a {
     font-size: 50px;
     color: orange;
+    background: black;
     }
 h2+p {
     color: purple;
@@ -13,12 +185,13 @@ a:link {
     border: 3px solid black;
 }
 a:visited {
-    border: 3px dotted purple;
+    border: 3px dotted orange;
 }
-/* for active to work it needs to come after hover */
+
+
 a:hover {
     color: royalblue;
 }
 a:active {
    color:  green ;
-}
+} */
