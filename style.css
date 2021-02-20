@@ -1,0 +1,93 @@
+header {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 20%;
+  padding: 20px;
+  place-items: center;
+  background-image: url(./Folder/brickoven.jpg);
+}
+
+header h1 {
+  display: -ms-grid;
+  display: grid;
+  font-family: monospace;
+  font-size: 3.0em;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+}
+
+header a {
+  display: -ms-grid;
+  display: grid;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 15%;
+  padding: 5px;
+  color: white;
+  font-weight: bolder;
+}
+
+header a:hover {
+  background: purple;
+  color: orange;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 5%;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+footer h2 {
+  color: orange;
+}
+
+footer a {
+  font-size: 1em;
+  text-decoration: none;
+  color: orange;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: ()[minmax];
+      grid-template-columns: repeat(minmax(250px, 1fr));
+  width: 100%;
+  background: black;
+  padding: 10px;
+  place-items: center;
+}
+
+main h2 {
+  color: black;
+}
+
+main p {
+  color: black;
+  text-align: center;
+}
+
+main:hover {
+  -webkit-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  background: orange;
+}
+/*# sourceMappingURL=style.css.map */
